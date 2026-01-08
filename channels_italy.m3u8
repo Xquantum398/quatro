@@ -1,8 +1,3 @@
-#EXTINF:-1 tvg-id="" tvg-name="24 |H" tvg-logo="https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/vavoo.png" tvg-language="Turkish" tvg-country="TR" group-title="Türkiye", 24 |H
-https://nellan-um1910257.hf.space/proxy/hls/manifest.m3u8?api_password=13021987&d=https://vavoo.to/play/1702937932/index.m3u8&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-
-
 
 
 
@@ -5187,3 +5182,4 @@ https://nellan-um1910257.hf.space/proxy/hls/manifest.m3u8?api_password=13021987&
 #EXTVLCOPT:http-user-agent=VAVOO/1.0
 #EXTVLCOPT:http-referrer=https://vavoo.to/
 https://nellan-um1910257.hf.space/proxy/hls/manifest.m3u8?api_password=13021987&d=https://vavoo.to/play/1467834090/index.m3u8
+
