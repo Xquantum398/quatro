@@ -1,16 +1,20 @@
 from fastapi import FastAPI
 from mediaflow_proxy.main import app as mediaflow_app  # Import mediaflow app
+import httpx
+import re
+import string
 
-# Ana FastAPI uygulaması
+# Initialize the main FastAPI application
 main_app = FastAPI()
 
-# mediaflow_app içindeki route'ları ekle ("/" hariç)
+# Manually add only non-static routes from mediaflow_app
 for route in mediaflow_app.routes:
-    if route.path != "/":
+    if route.path != "/":  # Exclude the static file path
         main_app.router.routes.append(route)
 
-# Geliştirme/test için doğrudan çalıştırma
+# Run the main app
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(main_app, host="0.0.0.0", port=7860)
+    uvicorn.run(main_app, host="0.0.0.0", port=8080)
+
 
