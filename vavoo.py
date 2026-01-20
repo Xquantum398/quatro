@@ -3,7 +3,7 @@ import json
 import re
 import os
 
-USREPG = "https://github.com/pierluigibartoli"
+USREPG = "https://github.com/Xquantum398"
 BRANCHEPG = "ddmfp"
 MFPLINK = "https://nellan-pigi2.hf.space"     # non mettere lo / finale al link
 MFPPSW = "13021987"
