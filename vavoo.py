@@ -5,7 +5,7 @@ import os
 
 USREPG = "https://github.com/Xquantum398"
 BRANCHEPG = "ddmfp"
-MFPLINK = "https://nellan-um1910258.hf.space"     # non mettere lo / finale al link
+MFPLINK = "https://nellan-um1910258.hf.space"     # non mettere lo / finale al link 
 MFPPSW = "13021987"
 
 PROXY = f"{MFPLINK}/proxy/hls/manifest.m3u8?api_password={MFPPSW}&d="
