@@ -6,7 +6,7 @@ import os
 USREPG = "https://github.com/Xquantum398"
 BRANCHEPG = "ddmfp"
 MFPLINK = "https://nellan-anton232.hf.space"     # non mettere lo / finale al link 
-MFPPSW = "13021987"
+MFPPSW = "Marco123"
 
 PROXY = f"{MFPLINK}/proxy/hls/manifest.m3u8?api_password={MFPPSW}&d="
 HEADER = "&h_user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36&h_referer=https://inattv1235.xyz"
