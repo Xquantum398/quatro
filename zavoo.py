@@ -9,9 +9,9 @@ MFPLINK = "https://nellan-um1910258.hf.space"     # non mettere lo / finale al l
 MFPPSW = "13021987"
 
 PROXY = f"{MFPLINK}/proxy/hls/manifest.m3u8?api_password={MFPPSW}&d="
-HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
+HEADER = "&h_user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36&h_referer=https://inattv1235.xyz"
 OUTPUT_FILE = "channels_italy.m3u8"
-BASE_URL = "https://vavoo.to"
+BASE_URL = "https://inattv1235.xyz/"
 
 SPECIAL_CHANNEL_MAPPING = {
     "20mediaset": "20mediasethd",
