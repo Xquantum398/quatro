@@ -6,7 +6,7 @@ import os
 USREPG = "https://github.com/Xquantum398"
 BRANCHEPG = "ddmfp"
 MFPLINK = "https://nellan-anton232.hf.space"     # non mettere lo / finale al link 
-MFPPSW = "13021987"
+MFPPSW = "Marco123"
 
 PROXY = f"{MFPLINK}/proxy/hls/manifest.m3u8?api_password={MFPPSW}&d="
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
