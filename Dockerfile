@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y git
 
-RUN git clone https://github.com/pierluigibartoli/pigi.git .
+RUN git clone https://github.com/Xquantum398/quatro.git .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
