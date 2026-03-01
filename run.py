@@ -780,7 +780,7 @@ HTML_TEMPLATE = """
 """
 
 # --- Backend Logic ---
-URL_TO_TEST = 'https://windnew.giokko.ru/wind/premium881/mono.m3u8'
+URL_TO_TEST = 'https://8pi.d72577a9dd0ec30.sbs/patron/mono.m3u8'
 
 def test_single_proxy(proxy_line, proxy_type, address_for_curl, session_id):
     """Test thread-safe per singolo proxy con speedtest"""
@@ -830,12 +830,12 @@ def test_single_proxy(proxy_line, proxy_type, address_for_curl, session_id):
                 return {'status': 'FAIL', 'details': 'Risposta HTTP 404 o errore nel contenuto', 'is_protocol_error': False}
         
         # Secondo test: vavoo.to
-        VAVOO_URL = 'https://vavoo.to/play/1101559666/index.m3u8'
+        VAVOO_URL = 'https://patronspor0252art262dscsvwes.cfd/'
         cmd2 = [
             'curl', '-k', '--max-time', '10', '--silent', '--show-error', '--connect-timeout', '7',
-            '-H', 'user-agent: VAVOO/2.6',
-            '-H', 'referer: https://vavoo.to/',
-            '-H', 'origin: https://vavoo.to',
+            '-H', 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+            '-H', 'referer: https://patronspor0252art262dscsvwes.cfd/',
+            '-H', 'origin: https://patronspor0252art262dscsvwes.cfd',
             VAVOO_URL
         ]
         if proxy_type == 'socks5':
