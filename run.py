@@ -793,9 +793,9 @@ def test_single_proxy(proxy_line, proxy_type, address_for_curl, session_id):
         # Primo test: sito principale
         cmd = [
             'curl', '-k', '--max-time', '10', '--silent', '--show-error', '--connect-timeout', '7',
-            '-H', 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
-            '-H', 'referer: https://epicplayplay.cfd/',
-            '-H', 'origin: https://epicplayplay.cfd',
+            '-H', 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+            '-H', 'referer: https://patronspor0252art262dscsvwes.cfd/',
+            '-H', 'origin: https://patronspor0252art262dscsvwes.cfd',
             URL_TO_TEST
         ]
 
